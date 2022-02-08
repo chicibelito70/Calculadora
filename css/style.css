@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-style: ridge;
+    border-color: thistle;
+}
+
+.boton{
+    width: 60px;
+    height: 40px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    color: white;
+    background-color: rgb(167, 171, 175);
+    font-family: monospace;
+}
+
+.pantalla {
+    width: 260px;
+    font-size: 30px;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.fondo {
+    background: linear-gradient(to right, rgb(223, 3, 3), rgb(236, 233, 6));
+    height: 100%;
+}
