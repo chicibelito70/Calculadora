@@ -5,8 +5,5 @@ Utilice la funcionalidad de localStorage para guardar el historial de las operac
 realizadas.
 
 
-<<<<<<< HEAD
-<img src="calculadora.jpg">
-=======
-<img src="Calculadora.jpg">
->>>>>>> 04f535937c9edae2418676f7214fdf1a270d27bb
+
+<img src="calculadora1.jpg">

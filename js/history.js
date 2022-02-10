@@ -36,4 +36,4 @@ function borra(){
     });
     localStorage.clear(); 
 }
-borra();
+//borra();
