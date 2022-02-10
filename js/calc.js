@@ -8,7 +8,8 @@ function igual() {
     an=igual;
     if (igual) {
         document.formulario.pantalla.value = eval(igual);
-        an+= + ' = ' + document.formulario.pantalla.value;
+        an+= " = " + document.formulario.pantalla.value;
+        guardar_calculos(an);    
     }
 }
 

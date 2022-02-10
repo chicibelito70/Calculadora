@@ -1,59 +1,63 @@
 <!DOCTYPE <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Calculadora</title>
-        <link rel="stylesheet" href="../Calculadora/css/style.css">
-    </head>
-    <body>
-        <div class="fondo"></div>
-        <div class="main">
-            <form name="formulario">
-                <input class="pantalla" name="pantalla" placeholder="Calculadora">
-                <button class="historia">#</button>
-            </form>
-            <table>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../Calculadora/css/style.css">
+</head>
+
+<body>
+    <div class="fondo"></div>
+    <div class="main">
+        <form name="formulario">
+            <input class="pantalla" name="pantalla" placeholder="Calculadora">
+            <div class="historial" id="ppp">
                 
-                <tr>
-                    <td><input class="boton" type="button" value="C" onclick="clean()"></td>
-                    <td><input class="boton" type="button" value="<" onclick="backspace()"></td>
-                    <td><input class="boton" type="button" value="/" onclick="insert('/')"></td>
-                    <td><input class="boton" type="button" value="*" onclick="insert('*')"></td>
-                </tr>
-                <tr>
-                    <td><input class="boton" type="button" value="7" onclick="insert(7)"></td>
-                    <td><input class="boton" type="button" value="8" onclick="insert(8)"></td>
-                    <td><input class="boton" type="button" value="9" onclick="insert(9)"></td>
-                    <td><input class="boton" type="button" value="+" onclick="insert('+')"></td>
-                </tr>
-                <tr>
-                    <td><input class="boton" type="button" value="4" onclick="insert(4)"></td>
-                    <td><input class="boton" type="button" value="5" onclick="insert(5)"></td>
-                    <td><input class="boton" type="button" value="6" onclick="insert(6)"></td>
-                    <td><input class="boton" type="button" value="-" onclick="insert('-')"></td>
-                </tr>
-                <tr>
-                    <td><input class="boton" type="button" value="1" onclick="insert(1)"></td>
-                    <td><input class="boton" type="button" value="2" onclick="insert(2)"></td>
-                    <td><input class="boton" type="button" value="3" onclick="insert(3)"></td>
-                    <td rowspan="5"><input class="boton" style="height: 87;" type="button" value="=" onclick="igual()">
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2"><input class="boton" type="button" style="width: 125;" value="0" onclick="insert(0)">
-                    </td>
-                    <td><input class="boton" type="button" value="." onclick="insert('.')"></td>
-                </tr>
-                <div class="historial">
-                    <p id="valores">History</p>
-                </div>             
-            </table> 
-        </div>
-    </div> 
-   <script src="../Calculadora/js/history.js"></script>
-<script src="../Calculadora/js/calc.js"></script>
-        
-    
-    </body>
+
+            </div>
+        </form>
+        <table>
+
+            <tr>
+                <td><input class="boton" type="button" value="C" onclick="clean()"></td>
+                <td><input class="boton" type="button" value="<" onclick="backspace()"></td>
+                <td><input class="boton" type="button" value="/" onclick="insert('/')"></td>
+                <td><input class="boton" type="button" value="*" onclick="insert('*')"></td>
+            </tr>
+            <tr>
+                <td><input class="boton" type="button" value="7" onclick="insert(7)"></td>
+                <td><input class="boton" type="button" value="8" onclick="insert(8)"></td>
+                <td><input class="boton" type="button" value="9" onclick="insert(9)"></td>
+                <td><input class="boton" type="button" value="+" onclick="insert('+')"></td>
+            </tr>
+            <tr>
+                <td><input class="boton" type="button" value="4" onclick="insert(4)"></td>
+                <td><input class="boton" type="button" value="5" onclick="insert(5)"></td>
+                <td><input class="boton" type="button" value="6" onclick="insert(6)"></td>
+                <td><input class="boton" type="button" value="-" onclick="insert('-')"></td>
+            </tr>
+            <tr>
+                <td><input class="boton" type="button" value="1" onclick="insert(1)"></td>
+                <td><input class="boton" type="button" value="2" onclick="insert(2)"></td>
+                <td><input class="boton" type="button" value="3" onclick="insert(3)"></td>
+                <td rowspan="5"><input class="boton" style="height: 87;" type="button" value="=" onclick="igual()">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input class="boton" type="button" style="width: 125;" value="0" onclick="insert(0)">
+                </td>
+                <td><input class="boton" type="button" value="." onclick="insert('.')"></td>
+            </tr>
+            
+        </table>
+    </div>
+    </div>
+    <script src="../Calculadora/js/history.js"></script>
+    <script src="../Calculadora/js/calc.js"></script>
+
+
+</body>
+
 </html>

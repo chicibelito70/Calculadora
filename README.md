@@ -5,4 +5,4 @@ Utilice la funcionalidad de localStorage para guardar el historial de las operac
 realizadas.
 
 
-<img src="calculadora,jpg">
+<img src="calculadora.jpg">
